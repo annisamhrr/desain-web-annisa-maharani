@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+th {
+    text-align: center;
+    padding: 8px;
+}
+td {
+    padding: 8px;
+}
+</style>
+<body>
+
+<h2>Table 1 Data Mahasiswa</h2>
+<br>
+<table style="width: 30%">
+    <caption>Berikut adalah data mahasiswa.</caption>
+    <tr>
+        <th style="width:15%">No</th>
+        <th>Nama</th>
+        <th>NIM</th>
+        <th>Alamat</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dina</td>
+        <td>112311</td>
+        <td>Karetan</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Ryan</td>
+        <td>112315</td>
+        <td>Cluring</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Rama</td>
+        <td>112317</td>
+        <td>Jajag</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Dhea</td>
+        <td>112318</td>
+        <td>Genteng</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Icha</td>
+        <td>112319</td>
+        <td>Purwoharjo</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Rani</td>
+        <td>112320</td>
+        <td>Grajagan</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Rinda</td>
+        <td>112321</td>
+        <td>Jatirejo</td>
+    </tr>
+</table>
+<br>
+
+<h2>Table 2 Data Nilai Mahasiswa.</h2>
+<br>
+<table style="width: 30%">
+    <caption>Berikut adalah data nilai mahasiswa.</caption>
+    <br>
+    <colgroup>
+        <col span="1" style="background-color: rgb(149, 149, 149);">
+        <col span="3" style="background-color: rgb(233, 233, 233);">
+    </colgroup>
+    <tr>
+        <th style="width:15%">No</th>
+        <th>Nama</th>
+        <th>NIM</th>
+        <th>Nilai UAS</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dina</td>
+        <td>112311</td>
+        <td>90</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Ryan</td>
+        <td>112315</td>
+        <td>85</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Rama</td>
+        <td>112317</td>
+        <td>90</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Dhea</td>
+        <td>112318</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Icha</td>
+        <td>112319</td>
+        <td>90</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Rani</td>
+        <td>112320</td>
+        <td>65</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Rinda</td>
+        <td>112321</td>
+        <td>70</td>
+    </tr>
+</table>
+<br>
+
+<h2>Table 3 Nama Mahasiswa yang memiliki nilai sama.</h2>
+<br>
+<table style="width: 30%">
+    <caption>Berikut adalah data nama mahasiswa yang mempunyai nilai sama.</caption>
+    <br>
+    <colgroup>
+        <col span="1" style="background-color:rgb(122, 193, 255);">
+        <col span="1" style="background-color: rgb(195, 227, 255);">
+    </colgroup>
+    <tr>
+        <th>Nilai</th>
+        <td>90</td>
+    </tr>
+    <tr>
+        <th rowspan="3">Nama</th>
+        <td>Dina</td>
+    </tr>
+    <tr>
+        <td>Rama</td>
+    </tr>
+    <tr>
+        <td>Icha</td>
+    </tr>
+</table>
+<br>
+
+<h2>Table 4 Nama Mahasiwa yang mempunyai nilai < 90.</h2>
+<br>
+<table style="width: 30%">
+    <caption>Berikut adalah data nama mahasiswa yang mempunyai nilai dibawah 90.</caption>
+    <br>
+    <colgroup>
+        <col span="1" style="background-color: rgb(255, 91, 135);">
+        <col span="2" style="background-color: rgb(254, 159, 184);">
+        <col span="2" style="background-color: rgb(255, 207, 219);">
+    </colgroup>
+    <tr>
+        <th>Nama</th>
+        <td>Ryan</td>
+        <td>Dhea</td>
+        <td>Rani</td>
+        <td>Rinda</td>
+    </tr>
+    <tr>
+        <th>Nilai</th>
+        <td>85</td>
+        <td>80</td>
+        <td>65</td>
+        <td>70</td>
+    </tr>
+</table>
+</body>
+</html>
